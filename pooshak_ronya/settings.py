@@ -71,7 +71,7 @@ WSGI_APPLICATION = 'pooshak_ronya.wsgi.application'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
-        default='postgresql://postgres:postgres@localhost:5432/mysite',
+        default='postgresql://postgres:postgres@localhost:5432/pooshak_ronya',
         conn_max_age=600
     )
 }
